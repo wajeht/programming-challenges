@@ -1,4 +1,5 @@
 // https://www.codewars.com/kata/54a91a4883a7de5d7800009c/train/javascript
+// took me 2 hours to complete
 // my implementationz
 function incrementString(string) {
     let extractedNumberString = '';
