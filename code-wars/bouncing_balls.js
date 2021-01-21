@@ -5,6 +5,9 @@
 // Float parameter "bounce" must be greater than 0 and less than 1
 // Float parameter "window" must be less than h.
 
+// did not unserstand the math of this problem
+// had to look it up and see how it was done!
+
 // my implementation
 function bouncingBall(h, bounce, window) {
     if (h > 0 && bounce > 0 && bounce < 1 && window < h) {
