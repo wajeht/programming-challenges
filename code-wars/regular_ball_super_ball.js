@@ -20,8 +20,9 @@ class Ball {
     constructor(ballType = 'regular') {
         this.ballType = ballType;
     }
-} // best practice
+}
 
+// best practice
 // -------------------------------------------------------------------------
 var Ball = function (ballType) {
     this.ballType = ballType || 'regular';
