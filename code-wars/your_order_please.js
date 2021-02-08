@@ -9,6 +9,7 @@ function order(words) {
     const wordObject = {};
     let result = '';
 
+    // edge case
     if (words === '') {
         return '';
     }
@@ -22,6 +23,7 @@ function order(words) {
             const isNumber = parsedIntCharacter % 1 == 0;
             let position = 0;
 
+            
             if (isNumber) {
                 position = parsedIntCharacter;
                 wordObject[position] = word;
@@ -35,6 +37,8 @@ function order(words) {
         result += wordObject[key] + ' ';
     }
 
+    // this will remove trailing spaces from both end
+    // because it deosn't accept spaces
     return result.trim();
 }
 
