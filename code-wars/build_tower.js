@@ -108,3 +108,15 @@ function towerBuilder(nFloors) {
 }
 
 console.log(towerBuilder(19));
+
+// best practice
+// ----------------------------------------------------------------------------------------
+function towerBuilder(nFloors) {
+    var result = [];
+    var starNumber = 1;
+    for (i = 1; i <= nFloors; i++) {
+        result[i - 1] = ' '.repeat(nFloors - i) + '*'.repeat(starNumber) + ' '.repeat(nFloors - i);
+        starNumber += 2;
+    }
+    return result;
+}
