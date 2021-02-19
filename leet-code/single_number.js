@@ -5,6 +5,7 @@
  * @return {number}
  *
  */
+
 var singleNumber = function (nums) {
     const map = {};
 
