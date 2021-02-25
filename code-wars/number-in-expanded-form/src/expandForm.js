@@ -1,3 +1,15 @@
+// //www.codewars.com/kata/5842df8ccbd22792a4000245/solutions/javascript
+// https: const expandedForm = (n) =>
+//     n
+//         .toString()
+//         .split('')
+//         .reverse()
+//         .map((a, i) => a * Math.pow(10, i))
+//         .filter((a) => a > 0)
+//         .reverse()
+//         .join(' + ');
+
+// my implementation
 function expandForm(number) {
     // split input number into string of char array
     const inputNumberArray = number.toString().split('');
@@ -31,11 +43,11 @@ function expandForm(number) {
         let element = array[i];
 
         if (element[0] != '0') {
-            result.push(element)
+            result.push(element);
         }
     }
 
-    result = result.join(" + ")
+    result = result.join(' + ');
 
     return result;
 }
