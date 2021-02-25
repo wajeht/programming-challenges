@@ -1,0 +1,15 @@
+{
+  "name": "number-in-expanded-form",
+  "version": "1.0.0",
+  "description": "write number in expadned form",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --coverage"
+  },
+  "author": "wajeht",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
