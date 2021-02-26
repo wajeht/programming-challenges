@@ -1,0 +1,17 @@
+{
+    "name": "string-ends-width",
+    "version": "1.0.0",
+    "description": "Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string).",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "test": "jest --coverage"
+    },
+    "author": "wajeht",
+    "license": "MIT",
+    "devDependencies": {
+        "jest": "^26.6.3",
+        "nodemon": "^2.0.7"
+    }
+}
