@@ -1,0 +1,17 @@
+{
+    "name": "get-the-middle-character",
+    "version": "1.0.0",
+    "description": "return the middle character of the word. If the word's length is odd, return the middle character. If the word's length is even, return the middle 2 characters.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "test": "jest --coverage"
+    },
+    "author": "wajeht",
+    "license": "MIT",
+    "devDependencies": {
+        "jest": "^26.6.3",
+        "nodemon": "^2.0.7"
+    }
+}
